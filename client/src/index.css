@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    height: 40px;
+    border: 1px solid #0f172a;
+    padding-left: 20px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #0f172a;
+}
+
+.outlined-btn{
+      border: 2px solid #0f172a;
+      color: #0f172a;
+      padding: 10px 20px;
+      height: 40px;
+}
+
+.contained-btn{
+    background-color: #0f172a;
+    color:white;
+    padding: 5px 20px;
+    height: 40px; 
+}
